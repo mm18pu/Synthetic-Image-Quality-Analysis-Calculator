@@ -42,7 +42,7 @@ Before running the application, ensure that the following dependencies are insta
   - `pandas`
   - `matplotlib`
   - `csv`
-  - tkinter
+  - `tkinter`
   - `PIL`
   - `scipy`
 
