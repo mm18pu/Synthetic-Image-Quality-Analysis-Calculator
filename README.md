@@ -66,7 +66,7 @@ pip install numpy opencv-python scikit-image pandas matplotlib
 
 7. **Save Results and ROI Data:** Use the "Save" button to store the ROI data and calculated metrics. Saved ROIs can be reused for later analysis.
 
-8 **Close the Application:** Once finished, exit the application by clicking the "Close" button or closing the GUI window.
+8. **Close the Application:** Once finished, exit the application by clicking the "Close" button or closing the GUI window.
 
 
 
