@@ -60,7 +60,7 @@ pip install numpy opencv-python scikit-image pandas matplotlib csv tk pillow sci
    ```
 2. **Load Images:** Use the "Load Image" buttons in the GUI to load both the synthetic image and the ground truth image. Each image will appear in its respective display area.
 
-3. **Select an ROI:** Click and drag on either image to select a Region of Interest (ROI). The ROI will be highlighted, and its coordinates will be used for subsequent calculations.
+3. **Select an ROI:** Left-click the upper left corner followed by the bottom right corner on either image to select a Region of Interest (ROI). The ROI will be highlighted, and its coordinates will be used for subsequent calculations.
 
 4. **Toggle Between Color Modes:** Use the "Grayscale" or "RGB" toggle options to switch between grayscale and RGB color modes for analysis.
 
