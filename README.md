@@ -45,7 +45,7 @@ Before running the application, ensure that the following dependencies are insta
 Install the dependencies using the following command:
 
 ```bash
-pip install numpy opencv-python scikit-image pandas matplotlib
+pip install numpy opencv-python scikit-image pandas matplotlib csv tk pillow scipy
 ```
 
 ## GUI Mode
