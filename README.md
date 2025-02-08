@@ -1,6 +1,6 @@
-# Synthetic Image Quality Calculator
+# Synthetic Image Quality Analysis Calculator
 
-The **Synthetic Image Quality Calculator** is a versatile application designed for assessing the quality of images based on various metrics. The tool allows you to calculate metrics such as Signal-to-Noise Ratio (SNR) and Structural Similarity Index Measure (SSIM) for grayscale and RGB images, including detailed SSIM components like luminance, contrast, and structure.
+The **Synthetic Image Quality Analysis Calculator (SIQAC)** is a versatile application designed for assessing the quality of images based on various metrics. The tool allows you to calculate metrics such as Signal-to-Noise Ratio (SNR) and Structural Similarity Index Measure (SSIM) for grayscale and RGB images, including detailed SSIM components like luminance, contrast, and structure.
 
 This application has been tested and verified to run on **Linux**, **Windows**, and **Mac** operating systems.
 
@@ -8,7 +8,7 @@ This application has been tested and verified to run on **Linux**, **Windows**, 
 
 ## Features
 
-# Synthetic Image Quality Calculator
+# SIQAC
 
 This application provides a graphical interface for evaluating the quality of synthetic images compared to a ground truth image. It calculates Signal-to-Noise Ratio (SNR) and Structural Similarity Index (SSIM) for selected Regions of Interest (ROIs). The tool supports both grayscale and RGB color modes.
 
