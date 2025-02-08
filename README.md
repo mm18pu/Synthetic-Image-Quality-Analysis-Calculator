@@ -56,7 +56,7 @@ pip install numpy opencv-python scikit-image pandas matplotlib csv tk pillow sci
 
 1. **Run the application**: Start the GUI by executing the following command in your terminal:
    ```bash
-   python synthetic_image_quality_calculator.py
+   python synthetic-image-quality-anlaysis-calculator.py
    ```
 2. **Load Images:** Use the "Load Image" buttons in the GUI to load both the synthetic image and the ground truth image. Each image will appear in its respective display area.
 
