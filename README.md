@@ -25,7 +25,7 @@ This application provides a graphical interface for evaluating the quality of sy
   - SSIMs (Grayscale, RGB)
   - SSIM components (Luminance, Contrast, Structure) for grayscale and individual R, G, B
  
-    <img src="image_app_demo.png" alt="Demo snapshot" title="Application Image" width="500">
+    <img src="image_app_demo.png" alt="Demo snapshot" title="Application Image" width="800">
 
 
 ---
