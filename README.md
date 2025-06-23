@@ -16,13 +16,13 @@ This application provides a graphical interface for evaluating the quality of sy
 
 - **Load Images**: Load the synthetic image and ground truth image.
 - **Toggle Color Mode**: Switch between RGB and grayscale for analysis.
-- **Calculate SNR**: Compute the SNR in decibels (dB) for a selected ROI.
-- **Calculate SSIM**: Compute the SSIM for a selected ROI.
+- **Calculate SNRs**: Compute the various SNR methods in decibels (dB) for a selected ROI.
+- **Calculate SSIMs**: Compute the various similarity methods for a selected ROI.
 - **Save Image & ROI**: Save the ROI data and selected image regions for later analysis.
 - **Batch Processing**: Automate SNR and SSIM calculations for multiple image pairs with ROI data from a CSV file.
 - **Output CSV**: Generate a CSV file with detailed calculations:
-  - SNR (Grayscale, RGB)
-  - SSIM (Grayscale, RGB)
+  - SNRs (Grayscale, RGB)
+  - SSIMs (Grayscale, RGB)
   - SSIM components (Luminance, Contrast, Structure) for grayscale and individual R, G, B
  
     <img src="Images/App_Image_cones.PNG" alt="Demo snapshot" title="Application Image" width="500">
@@ -45,11 +45,13 @@ Before running the application, ensure that the following dependencies are insta
   - `tkinter`
   - `PIL`
   - `scipy`
+  - `PyWavelets`
+  - `phasepack`
 
 Install the dependencies using the following command:
 
 ```bash
-pip install numpy opencv-python scikit-image pandas matplotlib csv tk pillow scipy
+pip install numpy opencv-python scikit-image pandas matplotlib csv tk pillow scipy PyWavelets phasepack
 ```
 
 ## GUI Mode
